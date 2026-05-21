@@ -82,3 +82,49 @@ footer {
     padding: 20px;
     background: #1f1f1f;
 }
+body{
+    margin:0;
+    height:3000px; /* só para ter rolagem */
+    background: linear-gradient(#87ceeb, #dff5ff);
+    overflow-x:hidden;
+    font-family: Arial, sans-serif;
+}
+
+.trator {
+    position: fixed;
+    bottom: 40px;
+    left: -250px;
+    width: 220px;
+    z-index: 9999;
+    animation: andar 18s linear infinite;
+}
+
+@keyframes andar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(100vw + 500px));
+    }
+}
+
+/* Rodas girando */
+.roda {
+    transform-origin: center;
+    animation: girar 1s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h1{
+    text-align:center;
+    margin-top:100px;
+    color:#2c3e50;
+}

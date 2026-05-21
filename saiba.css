@@ -1,0 +1,13 @@
+body {
+    background-image: url('pp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{ 
+    text-align: center;
+}
+p{
+    text-align: center;
+}
