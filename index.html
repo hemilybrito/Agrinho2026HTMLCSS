@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Interativo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site Interativo</h1>
+        <p>HTML5 + CSS + JavaScript</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Imagem Interativa</h2>
+
+            <img
+                id="imagemPrincipal"
+                src="img/foto.jpg"
+                alt="Imagem exemplo"
+            >
+
+            <button id="trocarImagem">
+                Trocar Imagem
+            </button>
+        </section>
+
+        <section class="card">
+            <h2>GIF Animado</h2>
+
+            <img
+                class="gif"
+                src="img/animacao.gif"
+                alt="GIF animado"
+            >
+        </section>
+
+        <section class="card">
+            <h2>Mensagem Dinâmica</h2>
+
+            <button id="mostrarMensagem">
+                Clique Aqui
+            </button>
+
+            <p id="mensagem"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Site criado com HTML5, CSS e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
