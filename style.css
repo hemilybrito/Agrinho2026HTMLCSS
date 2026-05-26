@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #121212;
+    background: hwb(197 15% 35%);
     color: white;
     text-align: center;
 }
@@ -18,7 +18,7 @@ header {
 
 header h1 {
     font-size: 40px;
-    color: #00d4ff;
+    color: #009dbd;
 }
 
 main {
