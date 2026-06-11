@@ -11,3 +11,13 @@ h1{
 p{
     text-align: center;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: #cccccc url('pexels-swastikarora-10326930.jpg') no-repeat center center fixed;
+    background-size: cover; /* O size precisa ficar separado ou após a posição com uma barra '/' */
+    min-height: 100vh;
+    margin: 0;
+}

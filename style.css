@@ -6,19 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: hwb(197 15% 35%);
+    background: hwb(115 15% 35%);
     color: white;
     text-align: center;
 }
 
 header {
-    background: #1f1f1f;
+    background: #00bd10;
     padding: 30px;
 }
 
+
 header h1 {
     font-size: 40px;
-    color: #009dbd;
+    color: #00bd10;
 }
 
 main {
@@ -40,7 +41,7 @@ main {
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px #00d4ff;
+    box-shadow: 0 0 20px #73ff00;
 }
 
 img {
@@ -85,7 +86,7 @@ footer {
 body{
     margin:0;
     height:3000px; /* só para ter rolagem */
-    background: linear-gradient(#87ceeb, #dff5ff);
+    background: linear-gradient(#87eb87, #dfffe4);
     overflow-x:hidden;
     font-family: Arial, sans-serif;
 }
